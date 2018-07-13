@@ -1,0 +1,34 @@
+﻿body {
+    background-color:antiquewhite;
+}
+#Banner {
+    background-color: blue;
+    height: 100px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+#lblBanner {
+    position: relative;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    text-align:center;
+    background-color: cadetblue;
+    border: 2px solid;
+}
+#lblAppName{
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+}
+#Content2{
+    text-align:center;
+}
+#gvReports{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}

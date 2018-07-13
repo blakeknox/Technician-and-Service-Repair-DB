@@ -1,0 +1,34 @@
+﻿body {
+    background-color: antiquewhite;
+}
+content {
+    background-color: wheat;
+}
+#Banner {
+    background-color: blue;
+    height: 100px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#lblBanner {
+    position: relative;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Content2 {
+    background-color: wheat;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+#gvReports {
+    padding: 15px;
+    background-color: lavenderblush;
+    margin-left: auto;
+    margin-right: auto;
+}

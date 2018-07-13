@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ReportsMaster.master.cs" Inherits="Project1.ReportsMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="Banner">
+                <asp:Label ID="lblBanner" runat="server" Text=""></asp:Label>
+                <br />
+                <asp:Label ID="lblDate" runat="server" Text=""></asp:Label>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:Label ID="lblAppName" runat="server" style="z-index: 1; left: 567px; top: 145px; position: absolute"></asp:Label>
+    </form>
+</body>
+</html>
